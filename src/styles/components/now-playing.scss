@@ -27,7 +27,7 @@
   &__image {
     box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, .3);
     height: auto;
-    max-width: 60vw;
+    max-width: 100vw;
     width: 100%;
   }
 
@@ -54,14 +54,14 @@
     justify-content: center;
   }
 
-  @media only screen and (min-width: 767px) {
+  @media only screen and (min-width: 1000px) {
     flex-flow: row nowrap;
     padding: 10%;
 
     &__cover,
     &__details {
-      width: 50%;
-      max-width: 495px;
+      width: 100%;
+      max-width: 600px;
     }
 
     &__details {
